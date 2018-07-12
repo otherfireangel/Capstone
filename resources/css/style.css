@@ -23,18 +23,22 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 a {
   color: #303030;
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Header Code*/
@@ -85,27 +89,25 @@ main .box:nth-child(2n+1) {
   margin: 32px 24px;
 }
 
-#boxone img {
-  max-width: 100%;
-}
-
 #boxone .info {
-  width: 30%;
+  width: 40%;
 }
 
 #boxone h2 {
   line-height: 1.2;
+  width: 80%;
 }
 
 #boxone h3 {
   line-height: 1.4;
+  width: 80%;
 }
 
 #boxone .info a {
   display: block;
   background-color: #303030;
   color: #ffffff;
-  width: 100%;
+  width: 80%;
   text-align: center;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -113,5 +115,53 @@ main .box:nth-child(2n+1) {
 }
 
 /* Second Box Code */
-#boxtwo {
+#boxtwo .big-info {
+  width: 60%;
+  margin: 32px 24px;
+  align-items: center;
+}
+
+#boxtwo .big-info img {
+  margin-bottom: 32px;
+}
+
+#boxtwo .big-info h2 {
+  margin-bottom: 24px;
+}
+
+#boxtwo .author {
+  margin: 32px 0;
+  font-size: .75rem;
+}
+
+#boxtwo .stack {
+  flex-direction: column;
+  width: 40%;
+}
+
+.sm-box {
+  align-items: center;
+}
+
+.sm-box:last-child {
+  background-color: #dcdcdc;
+}
+
+.sm-box .img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.sm-box .info {
+  width: 65%;
+  margin: 0;
+}
+
+.sm-box h3, .sm-box p {
+  margin-bottom: 8px;
+}
+
+.sm-box a {
+  color: #0000ff;
 }
