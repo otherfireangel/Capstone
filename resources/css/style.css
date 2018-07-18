@@ -1,6 +1,22 @@
 /* Universal Code */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngRUXZYTXPIvIBgJJSb6u92w7CGwR0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 html {
-  font-family: sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   color: #303030;
   font-size: 16px;
 }
@@ -33,7 +49,7 @@ h3 {
 }
 
 a {
-  color: #303030;
+  color: #4E96A1;
   text-decoration: none;
 }
 
@@ -63,6 +79,10 @@ img {
 
 .sm-box h3, .sm-box p {
   margin-bottom: 8px;
+}
+
+blockquote {
+  margin-bottom: 16px;
 }
 
 /* Header Code*/
@@ -100,7 +120,7 @@ nav span {
 
 /* Main Code */
 main .box:nth-child(2n+1) {
-  background-color: #dcdcdc;
+  background-color: #D9E8EB;
 }
 
 /* First Box Code */
@@ -153,25 +173,25 @@ main .box:nth-child(2n+1) {
   margin-bottom: 24px;
 }
 
-#boxtwo .author {
+#boxtwo cite {
   margin: 32px 0;
   font-size: .75rem;
 }
 
 #boxtwo .stack {
-  border-left: 1px solid #dcdcdc;
+  border-left: 1px solid #D9E8EB;
 }
 
 #boxtwo .sm-box {
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid #D9E8EB;
 }
 
 #boxtwo .sm-box:last-child {
-  background-color: #dcdcdc;
+  background-color: #D9E8EB;
 }
 
 #boxtwo .sm-box a {
-  color: #0000ff;
+  color: #4E96A1;
 }
 
 /* Third Box Code */
@@ -179,7 +199,7 @@ main .box:nth-child(2n+1) {
 to their visual appearance */
 #boxthree {
   flex-direction: column;
-  border-top: 1px solid #dcdcdc;
+  border-top: 1px solid #D9E8EB;
 }
 
 #boxthree h2 {
@@ -219,7 +239,7 @@ to their visual appearance */
 
 /* Fourth Box Code */
 #boxfour {
-  border-top: 1px solid #dcdcdc;
+  border-top: 1px solid #D9E8EB;
 }
 #boxfour h2 {
   text-align: center;
@@ -246,7 +266,7 @@ to their visual appearance */
 }
 
 #boxfour .sm-box:first-child {
-  background-color: #dcdcdc;
+  background-color: #D9E8EB;
 }
 
 #boxfour .sm-box .info {
@@ -255,7 +275,7 @@ to their visual appearance */
 
 /* Footer Code */
 footer {
-  border-top: 1px solid #dcdcdc;
+  border-top: 1px solid #D9E8EB;
   font-size: .75rem;
   justify-content: space-between;
   padding-top: 16px;
@@ -387,7 +407,7 @@ footer .copyright {
     padding-top: 16px;
     padding-bottom: 16px;
     width: 100%;
-    background-color: #dcdcdc;
+    background-color: #D9E8EB;
   }
 
   /* Box Four */

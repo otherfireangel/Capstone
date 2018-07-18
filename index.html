@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head role="presentation">
     <meta charset="utf-8">
     <title>Colmar Academy</title>
     <link type="text/css" href="resources/css/reset.css" rel="stylesheet">
@@ -10,28 +10,28 @@
     <!-- Header -->
     <header class="flex">
       <div class="desktop logo flex">
-        <img src="resources/images/ic-logo.svg">
+        <img  role="link" src="resources/images/ic-logo.svg" alt="Colmar Academy icon">
         <h1><span>COLMAR</span>ACADEMY</h1>
       </div>
       <div class="mobile logo flex">
-        <img src="resources/images/ic-logo.svg">
+        <img  role="link" src="resources/images/ic-logo.svg" alt="Colmar Academy icon">
       </div>
       <nav class="desktop">
-        <span>On Campus</span>
-        <span>Online</span>
-        <span>For Companies</span>
-        <span>Sign In</span>
+        <span role="link">On Campus</span>
+        <span role="link">Online</span>
+        <span role="link">For Companies</span>
+        <span role="link">Sign In</span>
       </nav>
-      <img class="mobile" src="resources/images/ic-on-campus.svg">
-      <img class="mobile" src="resources/images/ic-online.svg">
-      <img class="mobile" src="resources/images/ic-login.svg">
+      <img role="link" class="mobile" src="resources/images/ic-on-campus.svg" alt="On Campus icon">
+      <img role="link" class="mobile" src="resources/images/ic-online.svg" alt="Online icon">
+      <img role="link" class="mobile" src="resources/images/ic-login.svg" alt="Login icon">
     </header>
     <!-- Main -->
     <main>
       <!-- First Box -->
       <div class="box flex" id="boxone">
-        <div class="img">
-          <img src="resources/images/banner.jpg">
+        <div role="presentation" class="img">
+          <img src="resources/images/banner.jpg" alt="Image of three students reading and writing">
         </div>
         <div class="info">
           <h2>Learn something new everyday</h2>
@@ -42,19 +42,19 @@
       <!-- Second Box -->
       <div class="box flex" id="boxtwo">
         <div class="big-info desktop">
-          <img src="resources/images/information-main.jpg">
+          <img src="resources/images/information-main.jpg" alt="Image of a student reading">
           <h2>It doesn't hurt to keep practicing</h2>
-          <p class="quote">"Curabitur vitae libero in ipsum porttitor consequat.
+          <blockquote>"Curabitur vitae libero in ipsum porttitor consequat.
              Aliquam et commodo lectus, nec consequat neque. Sed non accumsan
              urna. Phasellus sed consequat ex. Etiam eget magna laoreet,
-             efficitur dolor consequat, tristique ligula."</p>
-          <p class="author">Emanuel, Sr Strategist at Hiring.com</p>
+             efficitur dolor consequat, tristique ligula."</blockquote>
+          <cite>Emanuel, Sr Strategist at Hiring.com</cite>
         </div>
         <div class="stack flex">
           <div class="sm-box flex">
-            <div class="img">
-              <img class="desktop" src="resources/images/information-orientation.jpg">
-              <img class="mobile" src="resources/images/information-orientation-mobile.jpg">
+            <div role="presentation" class="img">
+              <img class="desktop" src="resources/images/information-orientation.jpg" alt="Image from overhead of students walking">
+              <img class="mobile" src="resources/images/information-orientation-mobile.jpg" alt="Image from overhead of students walking">
             </div>
             <div class="info">
               <h3>Orientation date</h3>
@@ -63,9 +63,9 @@
             </div>
           </div>
           <div class="sm-box flex">
-            <div class="img">
-              <img class="desktop" src="resources/images/information-campus.jpg">
-              <img class="mobile" src="resources/images/information-campus-mobile.jpg">
+            <div role="presentation" class="img">
+              <img class="desktop" src="resources/images/information-campus.jpg" alt="Image of a table and hanging lamps">
+              <img class="mobile" src="resources/images/information-campus-mobile.jpg" alt="Image of a table and hanging lamps">
             </div>
             <div class="info">
               <h3>Our campus</h3>
@@ -74,9 +74,9 @@
             </div>
           </div>
           <div class="sm-box flex">
-            <div class="img">
-              <img class="desktop" src="resources/images/information-guest-lecture.jpg">
-              <img class="mobile" src="resources/images/information-guest-lecture-mobile.jpg">
+            <div role="presentation" class="img">
+              <img class="desktop" src="resources/images/information-guest-lecture.jpg" alt="Image of Oliver Sack">
+              <img class="mobile" src="resources/images/information-guest-lecture-mobile.jpg" alt="Image of Oliver Sack">
             </div>
             <div class="info">
               <h3>Our guest lecture</h3>
@@ -89,44 +89,44 @@
       <!-- Third Box -->
       <div class="box flex" id="boxthree">
         <h2>Start learning</h2>
-        <div class="row flex">
+        <div role="presentation" class="row flex">
           <div class="imgbox">
-            <img class="desktop" src="resources/images/course-software.jpg">
+            <img class="desktop" src="resources/images/course-software.jpg" alt="Image of two computer screens">
             <h3>Software engineering</h3>
             <p class="desktop">COURSES</p>
             <p class="desktop">Web Development, Mobile Development, iOT, APIs</p>
           </div>
           <div class="imgbox">
-            <img class="desktop" src="resources/images/course-computer-art.jpg">
+            <img class="desktop" src="resources/images/course-computer-art.jpg" alt="Image of a smartphone">
             <h3>Computer art</h3>
             <p class="desktop">COURSES</p>
             <p class="desktop">Imaging &amp; Design, Web Design, Motion Graphics
                &amp; Visual Effects, Computer Animation</p>
           </div>
           <div class="imgbox">
-            <img class="desktop" src="resources/images/course-design.jpg">
+            <img class="desktop" src="resources/images/course-design.jpg" alt="Image of someone holding a camera">
             <h3>Design</h3>
             <p class="desktop">COURSES</p>
             <p class="desktop">User Experience Design, User Research, Visual
               Design</p>
           </div>
         </div>
-        <div class="row flex">
+        <div role="presentation" class="row flex">
           <div class="imgbox">
-            <img class="desktop" src="resources/images/course-data.jpg">
+            <img class="desktop" src="resources/images/course-data.jpg" alt="Image of a computer displaying a graph">
             <h3>Data</h3>
             <p class="desktop">COURSES</p>
             <p class="desktop">Data Science, Big Data, SQL, Data Visualization</p>
           </div>
           <div class="imgbox">
-            <img class="desktop" src="resources/images/course-business.jpg">
+            <img class="desktop" src="resources/images/course-business.jpg" alt="Image of a chess set">
             <h3>Business</h3>
             <p class="desktop">COURSES</p>
             <p class="desktop">Product Development, Business Development,
               Startup</p>
           </div>
           <div class="imgbox">
-            <img class="desktop" src="resources/images/course-marketing.jpg">
+            <img class="desktop" src="resources/images/course-marketing.jpg" alt="Image of a smartwatch">
             <h3>Marketing</h3>
             <p class="desktop">COURSES</p>
             <p class="desktop">Analytics, Content Marketing, Mobile Marketing</p>
@@ -136,22 +136,22 @@
       <!-- Fourth Box -->
       <div class="box" id="boxfour">
         <h2>Thesis exhibits</h2>
-        <div class="flex">
+        <div role="presentation" class="flex">
           <div class="info">
             <video width="100%" height="auto" controls>
               <source src="resources/videos/thesis.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
             <h3 class="desktop">Reimagine urban</h3>
-            <p class="desktop quote">"Curabitur vitae libero in ipsum porttitor
+            <blockquote class="desktop">"Curabitur vitae libero in ipsum porttitor
               consequat. Aliquam et commodo lectus, nec consequat neque. Sed non
               accumsan urna. Phasellus sed consequat ex. Etiam eget magna
-              laoreet, efficitur dolor consequat, tristique ligula."</p>
+              laoreet, efficitur dolor consequat, tristique ligula."</blockquote>
           </div>
           <div class="desktop stack flex">
             <div class="sm-box flex">
-              <div class="img">
-                <img src="resources/images/thesis-fisma.jpg">
+              <div role="presentation" class="img">
+                <img src="resources/images/thesis-fisma.jpg" alt="Image of a student marking a paper">
               </div>
               <div class="info">
                 <h3>Fisma: Design and Prototype</h3>
@@ -159,8 +159,8 @@
               </div>
             </div>
             <div class="sm-box flex">
-              <div class="img">
-                <img src="resources/images/thesis-now-and-then.jpg">
+              <div role="presentation" class="img">
+                <img src="resources/images/thesis-now-and-then.jpg" alt="Image of the New York skyline">
               </div>
               <div class="info">
                 <h3>Now and then</h3>
