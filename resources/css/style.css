@@ -5,10 +5,6 @@ html {
   font-size: 16px;
 }
 
-div {
-  border: 1px solid black;
-}
-
 .mobile {
   display: none;
 }
@@ -238,3 +234,13 @@ to their visual appearance */
 }
 
 /* Footer Code */
+footer {
+  font-size: .75rem;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+footer .copyright {
+  margin-left: 24px;
+}
