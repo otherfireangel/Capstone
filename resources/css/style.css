@@ -165,3 +165,45 @@ main .box:nth-child(2n+1) {
 .sm-box a {
   color: #0000ff;
 }
+
+/* Third Box Code */
+/* At this point I realized the wireframe's pixel values are incorrect compared
+to their visual appearance */
+#boxthree {
+  flex-direction: column;
+}
+
+#boxthree h2 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#boxthree .row {
+  margin-bottom: 16px;
+  margin-left: 64px;
+  margin-right: 64px;
+  justify-content: space-between;
+}
+
+#boxthree .imgbox {
+  margin: 0 8px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#boxthree .imgbox h3, #boxthree .imgbox p {
+  padding-left: 16px;
+}
+
+#boxthree .imgbox h3 {
+  top: 16px;
+}
+
+#boxthree .imgbox p {
+  margin-top: 8px;
+}
+
+#boxthree .imgbox p:last-child {
+  margin-bottom: 24px;
+}
