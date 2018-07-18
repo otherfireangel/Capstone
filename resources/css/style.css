@@ -41,6 +41,30 @@ img {
   max-width: 100%;
 }
 
+.stack {
+  flex-direction: column;
+  width: 40%;
+}
+
+.sm-box {
+  align-items: center;
+}
+
+.sm-box .img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.sm-box .info {
+  width: 65%;
+  margin: 0;
+}
+
+.sm-box h3, .sm-box p {
+  margin-bottom: 8px;
+}
+
 /* Header Code*/
 header {
   background-color: #ffffff;
@@ -134,35 +158,11 @@ main .box:nth-child(2n+1) {
   font-size: .75rem;
 }
 
-#boxtwo .stack {
-  flex-direction: column;
-  width: 40%;
-}
-
-.sm-box {
-  align-items: center;
-}
-
-.sm-box:last-child {
+#boxtwo .sm-box:last-child {
   background-color: #dcdcdc;
 }
 
-.sm-box .img {
-  width: 35%;
-  height: auto;
-  margin: 16px;
-}
-
-.sm-box .info {
-  width: 65%;
-  margin: 0;
-}
-
-.sm-box h3, .sm-box p {
-  margin-bottom: 8px;
-}
-
-.sm-box a {
+#boxtwo .sm-box a {
   color: #0000ff;
 }
 
@@ -207,3 +207,34 @@ to their visual appearance */
 #boxthree .imgbox p:last-child {
   margin-bottom: 24px;
 }
+
+/* Fourth Box Code */
+#boxfour h2 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#boxfour .info {
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#boxfour video {
+  margin-bottom: 24px;
+}
+
+#boxfour .info h3 {
+  margin-bottom: 8px;
+}
+
+#boxfour .quote {
+  margin-bottom: 32px;
+}
+
+#boxfour .sm-box .info {
+  margin: 0;
+}
+
+/* Footer Code */
